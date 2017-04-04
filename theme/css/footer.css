@@ -1,0 +1,25 @@
+.footer {
+    text-align: center;
+    background: #616C75;
+}
+
+.footer-content {
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: left;
+}
+
+.footer-content li {
+    float: left;
+    padding: 10px;
+}
+
+.footer-content a {
+    color: #c8cdd2
+}
+
+.footer-content span {
+    color: #b0b2b5;
+    padding-left: 10px;
+}

@@ -1,0 +1,32 @@
+.header{
+    height: 60px;
+    border-top: 3px solid #323A41;
+    background: -moz-linear-gradient(top, #626D76, #323A41);
+    background: -webkit-gradient(linear, center top, center bottom, from(#626D76), to(#323A41));
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#626D76, endColorstr=#323A41)";
+    background-color: #626D76;
+}
+.header-content{
+	width: 1200px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+}
+.header .header-nav-list li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+.header .header-nav-list a{
+	text-shadow: 1px 1px 0 #323A41;
+    color: #9CA4AB;
+    font-size: 18px;
+    line-height: 24px;
+}
+.header .header-nav-list a:hover{
+	color: #BCD3C4;
+}
+.header .header-nav-list .active{
+	color: #BCD3C4;
+}

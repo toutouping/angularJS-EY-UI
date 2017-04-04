@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EY-UI</title>
+    <link rel="stylesheet" href="./theme/css/common.css">
+    <link rel="stylesheet" type="text/css" href="./lib/ey-ui/css/ey-ui.css">
+</head>
+
+<body>
+    <!-- top nav -->
+    <div ng-controller="topCtrl">
+        <div ng-include="topTemplate"></div>
+    </div>
+
+    <!-- center contain -->
+    <div ui-view></div>
+
+    <!-- bottom nav -->
+    <div ng-controller="bottomCtrl">
+        <div ng-include="bottomTemplate"></div>
+    </div>
+
+
+
+    <script src="./lib/require.js"></script>
+    <script src="./lib/angularjs/angular.js"></script>
+    <script src="./lib/angularjs/angular-ui-router.js"></script>
+    <script src="./lib/lazy-load/ocLazyLoad.js"></script>
+    <script src="./lib/ey-ui/script/ey-ui.all.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
