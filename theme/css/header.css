@@ -10,6 +10,7 @@
 	width: 1200px;
 	height: 60px;
 	line-height: 60px;
+    min-width: 1200px;
 	margin: 0 auto;
 }
 .header .header-nav-list li{

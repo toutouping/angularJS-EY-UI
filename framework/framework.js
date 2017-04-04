@@ -24,7 +24,7 @@ define(['../framework/topNav/topCtrl',
                     debug: true
                 });
                 $locationProvider.hashPrefix('');
-                $urlRouterProvider.otherwise('/home'); //默认跳转至主页
+                $urlRouterProvider.otherwise('/left/home'); //默认跳转至主页
             }
         ]);
 

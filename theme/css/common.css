@@ -30,6 +30,10 @@ body {
     -webkit-text-size-adjust: none
 }
 
+body{
+    background: #fafafa;
+}
+
 input,
 button {
     outline: none;
