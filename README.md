@@ -16,3 +16,6 @@
     lib/                            -->项目使用的第三方库以及自定义库
     index.html                      -->应用的入口文件
     main.js                         -->加载语言等信息
+
+## 效果展示
+![demo](./presentation/presentation.png)

@@ -6,12 +6,11 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#626D76, endColorstr=#323A41)";
     background-color: #626D76;
 }
-.header-content{
-	width: 1200px;
-	height: 60px;
-	line-height: 60px;
-    min-width: 1200px;
-	margin: 0 auto;
+.header .header-nav-list{
+	height: 57px;
+    line-height: 57px;
+    margin: 0 auto;
+    width: 1200px;
 }
 .header .header-nav-list li{
     float: left;
