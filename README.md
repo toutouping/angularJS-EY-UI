@@ -12,6 +12,6 @@ framework/
 theme/
     css/                        -->项目的样式文件夹
     img/                        -->项目的图片文件夹
-lib/                            -->项目使用的第三方库
-index.html                      -->应用的入口文件
+lib/                            -->项目使用的第三方库以及自定义库
+index.html                      -->应用的入口文件
 main.js                         -->应用主模块文件
