@@ -1,0 +1,5 @@
+<a ng-bind='menu.label' ng-click='clickFn(menu)' ng-class='{selected:menu.selected && !menu.sub}' ng-href='{{menu.href}}'></a>
+<i ng-if='menu.sub' class='collapsed'>&gt;</i>
+<ul ng-if='menu.sub' ng-class='{collapsed:menu.collapsed}'>
+    <li ng-repeat='menu in menu.sub' ng-include='"leftMenuCompoment/tpl/eyuiLeftMenu-sub-tpl.html"'></li>
+</ul>

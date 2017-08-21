@@ -54,6 +54,29 @@ define([],
                             }]
                         }
 
+                    }) 
+                    .state('left.dragPanel', {
+                        url: '/dragPanel',
+                        templateUrl: 'app/home/view/dragPanel.html',
+                        controller: 'dragPanelCtrl',
+                        resolve: {
+                            script: ['$ocLazyLoad', function($ocLazyLoad) {
+                                return $ocLazyLoad.load(['app/home/service/homeService.js',
+                                    'app/home/controller/dragPanelCtrl.js']);
+                            }]
+                        }
+
+                    })
+                    .state('left.accordion', {
+                        url: '/accordion',
+                        templateUrl: 'app/home/view/accordion.html',
+                        controller: 'accordionCtrl',
+                        resolve: {
+                            script: ['$ocLazyLoad', function($ocLazyLoad) {
+                                return $ocLazyLoad.load(['app/home/controller/accordion.js']);
+                            }]
+                        }
+
                     })
             }
         ]);

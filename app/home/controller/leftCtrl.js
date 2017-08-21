@@ -6,7 +6,7 @@ define([],
             $scope.menuList = [{
                 'id': 'home',
                 'label': '介绍',
-                'collapsed': true,
+                'collapsed': true,  //是否折叠菜单,可选,默认为false
                 'href': '/#/left/home',
                 'img': '',
                 'sub': null
@@ -24,6 +24,22 @@ define([],
                 'label': '左侧菜单',
                 'collapsed': true,
                 'href': '/#/left/leftMenu',
+                'img': '',
+                'sub': null
+            },
+            {
+                'id': 'dragPanel',
+                'label': '拖拉面板',
+                'collapsed': true,
+                'href': '/#/left/dragPanel',
+                'img': '',
+                'sub': null
+            },
+            {
+                'id': 'accordion',
+                'label': '手风琴面板',
+                'collapsed': true,
+                'href': '/#/left/accordion',
                 'img': '',
                 'sub': null
             }]

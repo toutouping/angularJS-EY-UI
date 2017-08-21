@@ -1,0 +1,60 @@
+.eyui-left-menu{
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    width: 210px;
+}
+
+.eyui-left-menu .eyui-left-menu-list > ul {
+    border: 1px solid #dad8d8;
+    border-radius: 4px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.eyui-left-menu ul {
+    list-style: none;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.eyui-left-menu ul li {
+    position: relative;
+    border-bottom: 1px solid #dad8d8;    
+    line-height: 36px;
+    min-width: 140px;
+}
+.eyui-left-menu ul li a {    
+    display: block;
+    padding: 0 20px;    
+    color: #222;
+    text-decoration: none;
+}
+.eyui-left-menu ul li a:hover{
+    color: #55a3e6;
+}
+.eyui-left-menu li:last-child {
+    border-bottom: none;
+}
+.eyui-left-menu li > ul {
+    border-top: 1px solid #dad8d8;
+}
+.eyui-left-menu li > ul > li {
+    float: none;
+    position: relative;
+    min-width: 140px;
+}
+.eyui-left-menu ul > li i.collapsed  {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    padding-right: 6px;
+}
+.eyui-left-menu ul > li ul.collapsed  {
+    display: none;
+}
+.eyui-left-menu .selected{
+    border-right: 2px solid #3F51B5;
+    color: #55a3e6;
+}

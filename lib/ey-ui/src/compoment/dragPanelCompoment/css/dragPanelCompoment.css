@@ -1,0 +1,58 @@
+.dragPanelContent {     
+    position: relative;
+    width: 900px;
+}
+
+.eyui-drag {
+    display: inline-block;    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    min-width: 280px;
+    width: 280px;
+    box-shadow: 0 0 6px rgba(0, 33, 50, 0.1), 0 7px 25px rgba(17, 38, 60, 0.4);
+}
+
+.eyui-drag .eyui-drag-header {
+    background: #828282;
+    color: #fff;
+    min-height: 26px;
+    line-height: 26px;
+    padding: 3px;
+    overflow: hidden;
+    cursor: move;
+}
+
+.eyui-drag .eyui-drag-header .eyui-drag-title {
+    float: left;
+    width: calc(100% - 90px);
+}
+
+.eyui-drag .eyui-drag-header .eyui-drag-tools {
+    font-family: 'icomoon' !important;
+    float: right;
+}
+
+.eyui-drag .eyui-drag-header .eyui-drag-tools i {
+    cursor: pointer;
+}
+
+.eyui-drag .eyui-drag-header .eyui-drag-tools .closeBtn:before {
+    content: "\ea0f";
+}
+
+.eyui-drag .eyui-drag-header .eyui-drag-tools .upBtn:before {
+    content: "\ea41";
+}
+
+.eyui-drag .eyui-drag-header .eyui-drag-tools .downBtn:before {
+    content: "\ea43";
+}
+
+.eyui-drag .eyui-drag-content {
+    min-height: 150px;
+    background: #fff;    
+    padding: 10px;
+    overflow-x: hidden;
+}
