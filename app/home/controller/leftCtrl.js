@@ -42,6 +42,14 @@ define([],
                 'href': '/#/left/accordion',
                 'img': '',
                 'sub': null
+            },
+            {
+                'id': 'sideFollow',
+                'label': '跑马灯',
+                'collapsed': true,
+                'href': '/#/left/sideFollow',
+                'img': '',
+                'sub': null
             }]
         }];
 

@@ -78,6 +78,17 @@ define([],
                         }
 
                     })
+                    .state('left.sideFollow', {
+                        url: '/sideFollow',
+                        templateUrl: 'app/home/view/sideFollow.html',
+                        controller: 'sideFollowCtrl',
+                        resolve: {
+                            script: ['$ocLazyLoad', function($ocLazyLoad) {
+                                return $ocLazyLoad.load(['app/home/controller/sideFollowCtrl.js']);
+                            }]
+                        }
+
+                    })
             }
         ]);
         return homeModule;
