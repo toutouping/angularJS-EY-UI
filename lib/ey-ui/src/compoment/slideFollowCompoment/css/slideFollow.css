@@ -3,5 +3,5 @@
 .eyui-slide-follow .slide li:hover{background: #ccc;}
 
 .eyui-croll-orizontal{white-space: nowrap; cursor:hover; overflow: hidden;width: 100%;}
-.eyui-croll-orizontal .inner{ width:1000px;overflow:hidden;}
+.eyui-croll-orizontal .inner{     display: inline-block;overflow:hidden;}
 .eyui-croll-orizontal .inner p{ display:inline-block;}
