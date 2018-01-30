@@ -1,7 +1,9 @@
-.mainContent{
-	width: 1200px;
+.mainContent{    
+    width: 1200px;
     margin: 20px auto 20px auto;
-	min-width: 1200px;
+    min-width: 1200px;
+    box-sizing: border-box;
+    min-height: calc(100vh - 190px);
 }
 .leftContent{
     width: 230px;

@@ -93,6 +93,7 @@ gulp.task(task.server, 'A simple web server.', ()=>{
         port: 3000,
         livereload: true
     });
+    console.log("http://localhost:3000/");
 });
 
 
@@ -204,5 +205,5 @@ gulp.task(task.clean, 'clean before build', function(cb) {
 	return del([destPaths.destPath], cb);
 });
 
-//gulp.task(task.develop, [task.clean,task.html2Tplcache,task.buildStyles,task.buildScripts/*,task.server*/]);
+// gulp.task(task.develop, [task.clean,task.buildStyles,task.buildScripts,task.watchHtmls,task.server]);
 gulp.task(task.build, [task.html2Tplcache,task.buildStyles,task.buildScripts]);
