@@ -19,7 +19,7 @@ angularjs 实现网页版前端框架搭建，通过开发引入自定义指令�
 
 > [ocLazyLoad](https://vuex.vuejs.org/zh-cn/) 通过 ocLazyLoad 实现动态（懒）加载模块和依赖。  
 
-> [Angular directives for Bootstrap](http://angular-ui.github.io/bootstrap/) angularjs 第三方指令插件。 
+> [Angular directives for Bootstrap](http://angular-ui.github.io/bootstrap/) angularjs 第三方指令插件 （特别推荐的一款指令库）。 
 
 ## Build Setup
 ``` bash
